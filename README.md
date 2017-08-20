@@ -14,18 +14,26 @@ node.js
 wget -qO- https://deb.nodesource.com/setup_7.x | sudo bash -
 sudo apt-get install -y nodejs```
 
+node package manager
+```
+sudo apt-get install nodejs npm
+```
+Packages: express, mongoose, body-parser
+```
+npm install express
+npm install mongoose
+npm install body-parser
+```
+
+
 ### Running the Project
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
 
 Clone the repository.
 
 ```
 git clone --?url
 ```
-Run the server from the project root directory
+Run the server from the project root directory.
 
 
 ```
